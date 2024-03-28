@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 550px;
+    background-image: url(biblioteca-universitaria.jpg);
+    
+}
+
+main#container > * {
+    padding: 5px;
+}
+.cortitulo {
+    color:  #07553a;
+    font-family: 'Cedarville Cursive';
+}
+h1 {
+    text-align: center;
+    color: rgb(239, 236, 240);
+}
+
+p {
+    text-align: center;
+    color: rgb(43, 61, 25);
+}
+
+main#container {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.quadrado {
+    border: 10px solid  #bac353; 
+    padding: 20px; 
+    width: 500px;
+    height: 300px; 
+    background-color: #bac353 ;
+    box-shadow: 5px 5px 5px rgba(230, 228, 228, 0.5);
+    margin-bottom: 20px;
+}
